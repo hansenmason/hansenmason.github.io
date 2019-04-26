@@ -1,1 +1,55 @@
 @import '~bootstrap/scss/bootstrap';
+
+#home {
+  padding-bottom: 100px;
+}
+
+.about {
+  color: purple;
+}
+
+#skills {
+  color: red;
+}
+
+#projects {
+  color: green;
+}
+
+#contact {
+  color: salmon;
+}
+
+body {
+  background-image: url('../images/background-photo.jpeg');
+  background-size: 100% 100%;
+}
+
+p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px 150px;
+}
+
+.section_type {
+    padding-top: 60px;
+    padding-bottom: 300px;
+}
+
+.section_titles {
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.2);
+  color: black;
+}
+
+.me {
+  height: 20%;
+  width: 20%;
+}

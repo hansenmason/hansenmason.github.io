@@ -1,17 +1,128 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <title>Example</title>
+      <title>Hansen</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <!-- Do not add `link` tags-->
       <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
       <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/vendor.js" tygpe="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body>
-      <h1>Browser Template</h1>
+      <nav id="navbar" class="navbar navbar-expand-lg d-flex">
+        <div class="d-flex w-100" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex justify-content-around align-items-center w-100 flex-row">
+            <a class="navbar-brand" href="#home">Home</a>
+            <a class="nav-item nav-link active" href="#about">Me<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="#contact">Contact Info</a>
+          </div>
+        </div>
+      </nav>
+      <div id="home"></div>
+      <div id="about" class="section_type">
+        <h2 class="section_titles">About Me</h2>
+        <p id="about_para">
+          <img src="./images/me.jpg" class="me" alt="Hansen"/>
+          <a href="./images/HansenMasonResumeDev.pdf" target="_blank">Click Here For My Resume!</a>
+        </p>
+          <div class="about">
+            I really enjoy solving things. Web development has been a blessing for me,
+            and something that I have been looking for since I graduated college.
+            Javascript and Ruby are something I really enjoy, as well as algorithmic
+            building. There is still so much to learn, and I am eager to do so. While at GA,
+            building projects has been incredibly interesting and rewarding. The logic based
+            interactions and webbings are something I find fascinating, and want to pursue.
+            Below you will find the projects I have worked on in my time at GA,
+            and hope to build off of in the future. With such an eclectic background,
+            I am happy to finally found something I'm ready to dive headfirst into
+            and continually learn and develop my skills. I am very big on functionality,
+            my aesthetic skills leave a lot to be desired, but I am open to doing anything
+            and everything related to software/web development!
+          </div>
+    </div>
+      <div id="skills" class="section_type">
+        <h2 class="section_titles">Skills</h2>
+        <img src="./images/React.png" title="React" alt="React" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/JS.png" title="JavaScript" alt="JavaScript" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/Ruby.png" title="Ruby" alt="Ruby" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/Rails.png" title="Rails" alt="Rails" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/Express.png" title="Express" alt="Express" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/Node.png" title="Node" alt="Node" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/HTMLCSS.jpeg" title="HTML/CSS" alt="HTML/CSS" style="width:100px;height:42px;border:0;"/>
+        <img src="./images/MongoDB.png" title="MongoDB" alt="MongoDB" style="width:50px;height:42px;border:0;"/>
+        <img src="./images/Handlebars.png" title="Handlebars" alt="Handlebars" style="width:50px;height:42px;border:0;"/>
+      </p>
+      </div>
+      <div id="projects" class="section_type">
+        <h2 class="section_titles">Projects</h2>
+        <p>
+          <a href="https://hansenmason.github.io/HansenTicTacToe-client/" target="_blank">Tic-Tac-Toe</a>
+          <a href="https://github.com/hansenmason/HansenTicTacToe-client" target="_blank">Tic-Tac-Toe Repo</a>
+          <p>My First Project, Tic-tac-toe, really allowed me to get a handle on html, css, javascript,
+          and jquery for making api requests. I was very unfamiliar with most everything, but especially the interaction
+          between back and front end, aka API requests. This project helped me a lot in giving me a basis of making
+          such requests, as well as getting familiar with logic and implementation of such based on
+          what I'm trying to accomplish. In this case, the logic was test every time a new target was clicked to every
+          winning order, or ending game and having it being a tie when appropriate. I really enjoyed building
+          the logic portion, and understanding jquery and ajax.</p>
+          <a href="https://github.com/hansenmason/HansenBookClub-client" target="_blank">Book Clubs! Repo</a>
+          <a href="https://hansenmason.github.io/HansenBookClub-client/" target="_blank">Book Clubs! Site</a>
+          <p>My Second Project, Book Clubs, immersed me in the backend part of things, where we had to develop
+          a working back and front end that communicated with each other and stored data in a
+          relational database. It also furthered my skills in html, css, javascript, jquery,
+          and ajax. Understanding the innerworkings of databases and their interactions is a difficult process,
+          and this project allowed me to see what things can and should be in the back end, versus
+          the goal of the front end and what you should be included there instead of the back end, or not.
+          This was my first interaction with back end/fullstack, and it was a great way to help
+          my knowledge of fullstack development with relational databases, and manipulation of them.</p>
+          <a href="https://github.com/m-d-h-s/mdhs-blog-frontend" target="_blank">Letterbox Repo</a>
+          <a href="https://m-d-h-s.github.io/mdhs-blog-frontend/" target="_blank">Letterbox Site</a>
+          <p>This was a group project that I am very proud of making with my classmates.
+            We did a lot of planning and strategizing, which ended up being very important
+            in the implementation process. We did a lot of pair programming, and when we were
+            done with a certain feature, we would all decide what we wanted to do next and how
+            we were going to execute it. I found it very valuable to work with others and bounce
+            ideas off each other and work together to create something awesome. We were able to
+            create user authentication features, with their own blogs, and their own comments on
+            any blogs. We were also able to add a 'like' button so users could like blogs. We
+            sort the blogs by number of likes tied to amount of time since blog post, where newer
+            blogs with the a certain number of likes will be higher up than older blogs with the
+            same number of likes. We also contrived a search by blog titles, blog bodies, and user
+            handles to see blogs matching those fields. As a team, through effective planning and
+            strategizing, were able to implement a lot of features in not a lot of time, something
+            I am proud of as a team member. </p>
+            <a href="https://github.com/hansenmason/react-capstone" target="_blank">Capstone Repo</a>
+            <a href="https://hansenmason.github.io/react-capstone/#/" target="_blank">Pico Fermi Site</a>
+            <p>For my final project, I built a full stack guessing number game. I used react in the
+              front end and ruby on rails in the back end. I found I really enjoy working with react.
+              It is awesome to be able to split routes and render whatever you want for each with ease.
+              React is great for organization and using component templates/forms, which I really like.
+              Through this, I was able to implement two different game types, each with their own back
+              end route and schema. One game involves guessing three digit number, and the other
+              a four digit number. I was able to set up links and routes using react, and easily
+              rendered them how I liked for each. I would definitely like to work with react on future
+              projects. As for rails, I was able to get a lot more comfortable working with it and managing
+              my migrations and schema. I look forward to continued learning in this particular stack.</p>
+      </p>
+      </div>
+      <div id="contact" class="section_type">
+        <h2 class="section_titles">Contact Info</h2>
+        <p>
+          <a href="https://github.com/hansenmason" target="_blank">
+            <img src="./images/Github.png" title="Github" alt="Github" style="width:50px;height:42px;border:0;"/>
+          </a>
+          <a href="https://www.linkedin.com/in/hansen-mason/" target="_blank">
+            <img src="./images/LinkedIn.png" title="LinkedIn" alt="LinkedIn" style="width:50px;height:42px;border:0;"/>
+          </a>
+          <a href="mailto:hansenmason3@gmail.com" target="_blank">
+            <img src="./images/Gmail.png" title="Gmail" alt="Gmail" style="width:50px;height:42px;border:0;"/>
+          </a>
+      </p>
+      </div>
     </body>
 </html>
